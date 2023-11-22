@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,400;1,700&family=Roboto:ital,wght@1,300;1,400;1,700&display=swap');
+
+  
+
+
+:root{  
+
+    --padding-container: 100px 0;
+    --color-title: #000000;
+
+
+
+}
+
+
+
+body{ 
+
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+
+}   
+
+.container{  
+
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden; 
+    padding: var(--padding-container);
+
+    --padding-container: 0;
+    height: 100%;
+    display: flex; 
+    align-items: center;  
+
+
+}    
+
+.nav_link{  
+
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow:column;
+    grid-auto-columns:max-content;
+    gap: 2 em;
+
+   
+ 
+
+
+}  
+
+.nav_links{
+
+    text-decoration: none;
+    color:aliceblue;
+
+    
+}
+
+
+
+.nav_items{
+
+    color: rgb(250, 250, 250);
+    gap: 2 em;
+    list-style: none;
+   
+
+}
+
+
+
+.hero{
+
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color:antiquewhite;
+   
+
+
+    
+} 
+
+
+.hero::before{
+
+    content: " ";
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000008c 0%,   #0000008c 100%  ), url('../image/euu.jpeg');
+    background-size: cover;
+   
+    z-index: -1; 
+
+
+
+}
+
+
+.mundo{
+
+    color:rgb(177, 199, 31);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.foto_gato{
+
+    border-radius: 30px;
+    width: 190px; 
+    height: 190px;
+    
+
+
+}  
+
+
+
+
+
+
+.hero_paragraph{
+
+    color: rgba(255, 255, 255, 0.884);
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+
+
+} 
+
+
+.titulo_todo_para_el_mundo{
+
+
+    color: rgba(255, 255, 255, 0.884);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+  
+
+} 
+
+
+
+.gato_4{ 
+
+    width: 300px; 
+    height: 250px;
+    border-radius: 30px;
+
+} 
+
+
+
+
+.medicina1{
+
+    width: 300px; 
+    height: 250px;
+    border-radius: 30px;
+
+
+}
+
+
+
+
+.bom{
+
+    width: 300px; 
+    height: 250px;
+    border-radius: 30px;
+
+}  
+
+.bom_2{
+
+    width: 300px; 
+    height: 250px;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+.seccion_color{
+
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.menu{
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(9, 10, 6);
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    margin: auto;
+   
+
+} 
+
+.menu li a:hover{
+
+    background-color: #e6ff01b7;
+
+
+}
+
+.listas_menu{
+
+    text-decoration: none;
+    padding: 19px;
+    display: block;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+
+} 
+
+.texto_tienda{
+
+    color:rgb(18, 19, 16);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.testa_info{
+
+    color:rgb(15, 15, 12);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.hola_{
+
+    background-color: rgb(124, 124, 124);
+
+
+}
+
+
+
+.hederhero{
+
+   
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+ 
+
+}
+
+.hederhero::before{
+
+    content: " ";
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:  url('../image/mimado_2.png');
+    background-size: cover;
+   
+    z-index: -1; 
+
+}
+
+
+.clase_titulo{
+
+    color:rgb(249, 250, 242);
+    font-family: 'Times New Roman', Times, serif;
+
+} 
+
+
+
+
+
+.meme{
+
+    background-color:rgb(0, 16, 85); 
+
+
+
+} 
+
+.inicio{
+
+    list-style: none;
+    color:rgb(238, 241, 245);
+   
+    padding: 10xpx 30px;
+    margin: 150px 130px;
+   
+    text-decoration: none;
+    width: 59px;
+    height: 59px;
+
+}
+
+.una_sola{
+
+    width: 300px; 
+    height: 250px;
+    border-radius: 30px;
+
+}
+
+
+.heron{
+
+
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+
+}
+
+.heron::before{
+
+    content: " ";
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000008c 0%,   #0000008c 100%  ), url('../image/corregido_5.png');
+    background-size: cover;
+   
+    z-index: -1; 
+
+}
+
+.naturalezaboton{
+
+
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+   
+    padding: 10xpx 10px;
+    margin: 10px 10px;
+    color:aliceblue;
+
+
+
+}
+
+.texto_naturaleza{
+
+    color:rgb(177, 199, 31);
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+
+
+.herok{
+
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+
+
+}
+
+.herok::before{
+
+    content: " ";
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000008c 0%,   #0000008c 100%  ), url('../image/cebra.jpg');
+    background-size: cover;
+   
+    z-index: -1; 
+
+}
+
+
+.boton_mundo_animal{
+
+
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+   
+    padding: 10xpx 10px;
+    margin: 10px 10px;
+    color:aliceblue;
+
+
+} 
+
+.video{
+
+    width: 390px; 
+    height: 390px;
+    border-radius: 30px;
+
+}
+
+
+.foto_{
+
+    width: 490px; 
+    height: 390px;
+    border-radius: 59px;
+
+
+}
+
+.clase_titulo{
+
+    color:rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.atras_entra{
+
+
+    color:rgb(229, 233, 4);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.texto_cebras{
+
+    color:rgb(229, 233, 4);
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+
+@media (max-width:600px){ 
+
+    .hero_title{
+ 
+       font-size: 2rem;
+ 
+    } 
+ 
+    .hero_paragraph{
+ 
+       font-size: 1rem;
+ 
+    } 
+ 
+    .subtitle{
+ 
+       font-size: 1.8rem; 
+ 
+    }
+ 
+ 
+ } 
+
+
+
+
+
+
+
